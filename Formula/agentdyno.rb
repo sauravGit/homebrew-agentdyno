@@ -1,8 +1,8 @@
 class Agentdyno < Formula
   desc "Dyno bench for local coding agents: prove tool-calling works before wiring up Goose or Cline"
   homepage "https://github.com/sauravGit/agentdyno"
-  url "https://github.com/sauravGit/agentdyno/releases/download/v0.7.1/agentdyno-0.7.1.tgz"
-  sha256 "c8e6f5cb8c5b575d51f12c38c597866094abbdf145b9cc136094eb41a14214f7"
+  url "https://registry.npmjs.org/agentdyno/-/agentdyno-0.7.4.tgz"
+  sha256 "1bcc2e438daeb2e6aa2324be3833c9345e56ac5a14e03c77bdacbefad016b923"
   license "Apache-2.0"
 
   depends_on "node"

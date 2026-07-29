@@ -7,7 +7,7 @@ bench for local coding agents.
 brew install sauravGit/agentdyno/agentdyno
 ```
 
-This installs `dyno` from the npm tarball attached to AgentDyno's GitHub
-releases (the package is not yet on the public npm registry). The formula
-tracks release tags; bump `url`/`sha256` in `Formula/agentdyno.rb` on each new
-AgentDyno release.
+This installs `dyno` from the [agentdyno npm package](https://www.npmjs.com/package/agentdyno).
+The formula tracks published npm versions; bump `url`/`sha256` in
+`Formula/agentdyno.rb` on each new release (the tarball URL and sha256 come
+straight from `https://registry.npmjs.org/agentdyno/<version>`).
